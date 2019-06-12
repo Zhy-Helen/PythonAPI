@@ -1,9 +1,11 @@
 # -*- coding:utf-8 -*-
 import config
-
+import os
+module_path=os.path.abspath(os.path.join(os.getcwd(), "../..")) #获取python的绝对路径
+print (module_path)
 
 def get_API_url(api_name):
-    fp = open(r'C:\Users\01476531\Desktop\Learning\Python\config\API_URL.txt')
+    fp = open(module_path+"\\config\\API_URL.txt")
     api_infos = fp.readlines()
     # 通过for循环来遍历配置文件里的每一个url，并且返回传入的接口名称相应的url
     for api in api_infos:
