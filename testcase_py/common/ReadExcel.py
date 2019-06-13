@@ -2,12 +2,9 @@ import os, xlrd, xlwt, time
 import testcase_excel
 import os
 
-module_path=os.path.abspath(os.path.join(os.getcwd(), "../..")) #获取python的绝对路径
-print (module_path)
-
 # 通过传入用例名称的文件和excel页面来读取测试用例
 def get_case(filename, sheetnum):
-    case_dir = module_path+'\\testcase_excel\\' + filename + '.xlsx'
+    case_dir = os.getcwd() + "\\"+filename + '.xlsx'
     print(case_dir)
     datas = xlrd.open_workbook(case_dir)
     table = datas.sheets()[sheetnum]

@@ -1,16 +1,14 @@
 from xlwt import XFStyle
 
 from testcase_py.common.Readconfig import get_API_url
-from testcase_py.common.ReadExcel import get_case, write_report,module_path
+from testcase_py.common.ReadExcel import get_case, write_report
 import requests, unittest, json
 import os, xlrd, xlwt, time
 import datetime
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../.."))+"\\config")
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../.."))+"\\report")
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../.."))+"\\testcase_excel")
-sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../.."))+"\\testcase_py")
-print(sys.path)
+
+
+
 def test_API():
 
     print("begin......")
@@ -99,7 +97,7 @@ def test_API():
             failed += 1
             print(failed)
         print(datetime.datetime.now().strftime('%Y%m%d%H%M%S'))
-        workbook.save(module_path+'\\report\\'+datetime.datetime.now().strftime('%Y%m%d%H%M%S')+'_result.xls')
+        workbook.save(os.getcwd()+"\\"+datetime.datetime.now().strftime('%Y%m%d%H%M%S')+'_result.xls')
         # 测试用例执行完后，返回用例成功与失败的数量
 
     return passed, failed
