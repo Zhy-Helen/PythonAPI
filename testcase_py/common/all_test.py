@@ -5,8 +5,12 @@ from testcase_py.common.ReadExcel import get_case, write_report,module_path
 import requests, unittest, json
 import os, xlrd, xlwt, time
 import datetime
-
-
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../.."))+"\\config")
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../.."))+"\\report")
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../.."))+"\\testcase_excel")
+sys.path.append(os.path.abspath(os.path.join(os.getcwd(), "../.."))+"\\testcase_py")
+print(sys.path)
 def test_API():
 
     print("begin......")
