@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42a6fb89-0351-44e3-b4b1-1f6d366e5885" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GetCurrentPath.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/API_URL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/testcase_py/common/API_URL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase_excel/testcase.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testcase_py/common/testcase.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase_py/common/ReadExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase_py/common/ReadExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase_py/common/Readconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase_py/common/Readconfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase_py/common/all_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase_py/common/all_test.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/testcase_py/common/all_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="102" column="25" lean-forward="true" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+            <state relative-caret-position="1908">
+              <caret line="105" column="18" lean-forward="true" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -72,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testcase_py/common/Readconfig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="250">
+              <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -328,7 +322,7 @@
       <workItem from="1559452341902" duration="34672000" />
       <workItem from="1559701217956" duration="1884000" />
       <workItem from="1559703507944" duration="9910000" />
-      <workItem from="1560239675028" duration="24650000" />
+      <workItem from="1560239675028" duration="24895000" />
     </task>
     <task id="LOCAL-00001" summary="云端接口第一次提交测试">
       <created>1559542446517</created>
@@ -351,7 +345,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560397456106</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="云端接口第四次提交测试">
+      <created>1560421942616</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560421942616</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -360,7 +361,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112946000" />
+    <option name="totallyTimeSpent" value="113191000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -375,7 +376,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27609682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -384,7 +385,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.40136054" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.274276" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1294719" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39965987" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -414,7 +415,8 @@
     <MESSAGE value="云端接口第一次提交测试" />
     <MESSAGE value="云端接口第二次提交测试" />
     <MESSAGE value="云端接口第三次提交测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="云端接口第三次提交测试" />
+    <MESSAGE value="云端接口第四次提交测试" />
+    <option name="LAST_COMMIT_MESSAGE" value="云端接口第四次提交测试" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -562,15 +564,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase_py/common/Readconfig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="36" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+        <state relative-caret-position="250">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase_py/common/all_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="102" column="25" lean-forward="true" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
+        <state relative-caret-position="1908">
+          <caret line="105" column="18" lean-forward="true" selection-start-line="105" selection-start-column="18" selection-end-line="105" selection-end-column="18" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
